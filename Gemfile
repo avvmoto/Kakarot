@@ -33,6 +33,7 @@ gem 'binding_of_caller'
 gem 'devise'
 gem 'omniauth'
 gem 'omniauth-twitter'
+gem 'twitter'
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
