@@ -1,0 +1,25 @@
+<%= form_for(@tweet_mood) do |f| %>
+  <% if @tweet_mood.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@tweet_mood.errors.count, "error") %> prohibited this tweet_mood from being saved:</h2>
+
+      <ul>
+      <% @tweet_mood.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :tweet_id %><br>
+    <%= f.number_field :tweet_id %>
+  </div>
+  <div class="field">
+    <%= f.label :mood_id %><br>
+    <%= f.number_field :mood_id %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

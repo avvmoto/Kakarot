@@ -1,0 +1,29 @@
+<h1>Listing mood_colors</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Mood</th>
+      <th>Color</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @mood_colors.each do |mood_color| %>
+      <tr>
+        <td><%= mood_color.mood_id %></td>
+        <td><%= mood_color.color_id %></td>
+        <td><%= link_to 'Show', mood_color %></td>
+        <td><%= link_to 'Edit', edit_mood_color_path(mood_color) %></td>
+        <td><%= link_to 'Destroy', mood_color, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Mood color', new_mood_color_path %>

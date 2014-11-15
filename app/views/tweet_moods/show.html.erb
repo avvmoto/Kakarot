@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Tweet:</strong>
+  <%= @tweet_mood.tweet_id %>
+</p>
+
+<p>
+  <strong>Mood:</strong>
+  <%= @tweet_mood.mood_id %>
+</p>
+
+<%= link_to 'Edit', edit_tweet_mood_path(@tweet_mood) %> |
+<%= link_to 'Back', tweet_moods_path %>
