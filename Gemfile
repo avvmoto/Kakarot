@@ -34,6 +34,7 @@ gem 'devise'
 gem 'omniauth'
 gem 'omniauth-twitter'
 gem 'twitter'
+gem 'dotenv'
 gem 'dotenv-rails'
 
 group :doc do

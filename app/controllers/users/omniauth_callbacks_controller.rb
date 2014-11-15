@@ -5,6 +5,7 @@ class Users::OmniauthCallbacksController < Devise::OmniauthCallbacksController
     
     if @user.persisted?
       sign_in @user
+      Tweet.bulk_create(@user)
       redirect_to root_path
     else
       redirect_to user_omniauth_authorize_path(:twitter)
