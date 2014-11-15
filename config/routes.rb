@@ -1,4 +1,20 @@
 Kakarot::Application.routes.draw do
+  resources :mood_colors
+
+  resources :tweet_moods
+
+  resources :recipe_materials
+
+  resources :materials
+
+  resources :recipes
+
+  resources :colors
+
+  resources :moods
+
+  resources :tweets
+
   devise_for :users, :controllers => {
       :omniauth_callbacks => "users/omniauth_callbacks"
   }

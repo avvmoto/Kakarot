@@ -1,0 +1,29 @@
+<h1>Listing tweet_moods</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Tweet</th>
+      <th>Mood</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @tweet_moods.each do |tweet_mood| %>
+      <tr>
+        <td><%= tweet_mood.tweet_id %></td>
+        <td><%= tweet_mood.mood_id %></td>
+        <td><%= link_to 'Show', tweet_mood %></td>
+        <td><%= link_to 'Edit', edit_tweet_mood_path(tweet_mood) %></td>
+        <td><%= link_to 'Destroy', tweet_mood, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Tweet mood', new_tweet_mood_path %>

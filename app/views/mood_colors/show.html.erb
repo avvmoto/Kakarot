@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Mood:</strong>
+  <%= @mood_color.mood_id %>
+</p>
+
+<p>
+  <strong>Color:</strong>
+  <%= @mood_color.color_id %>
+</p>
+
+<%= link_to 'Edit', edit_mood_color_path(@mood_color) %> |
+<%= link_to 'Back', mood_colors_path %>
