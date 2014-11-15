@@ -1,4 +1,16 @@
 Kakarot::Application.routes.draw do
+  resources :recipe_materials
+
+  resources :materials
+
+  resources :recipes
+
+  resources :colors
+
+  resources :moods
+
+  resources :tweets
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
