@@ -52,6 +52,9 @@ GEM
       responders
       thread_safe (~> 0.1)
       warden (~> 1.2.3)
+    dotenv (1.0.2)
+    dotenv-rails (1.0.2)
+      dotenv (= 1.0.2)
     equalizer (0.0.9)
     erubis (2.7.0)
     execjs (2.2.2)
@@ -171,6 +174,7 @@ DEPENDENCIES
   devise
   faraday
   faraday_middleware
+  dotenv-rails
   jbuilder (~> 1.2)
   jquery-rails
   omniauth
