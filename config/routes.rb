@@ -1,4 +1,5 @@
 Kakarot::Application.routes.draw do
+  devise_for :users
   get "single_pages/home"
   # resources :users
 
