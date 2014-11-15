@@ -3,16 +3,16 @@ class ColorsController < ApplicationController
 
   def index
     @colors = Color.all
-    respond_with(@colors)
+    respond_to { |format| format.html }
   end
 
   def show
-    respond_with(@color)
+    respond_to { |format| format.html }
   end
 
   def new
     @color = Color.new
-    respond_with(@color)
+    respond_to { |format| format.html }
   end
 
   def edit
@@ -21,17 +21,17 @@ class ColorsController < ApplicationController
   def create
     @color = Color.new(color_params)
     @color.save
-    respond_with(@color)
+    respond_to { |format| format.html }
   end
 
   def update
     @color.update(color_params)
-    respond_with(@color)
+    respond_to { |format| format.html }
   end
 
   def destroy
     @color.destroy
-    respond_with(@color)
+    respond_to { |format| format.html }
   end
 
   private

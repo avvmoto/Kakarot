@@ -3,16 +3,16 @@ class RecipeMaterialsController < ApplicationController
 
   def index
     @recipe_materials = RecipeMaterial.all
-    respond_with(@recipe_materials)
+    respond_to { |format| format.html }
   end
 
   def show
-    respond_with(@recipe_material)
+    respond_to { |format| format.html }
   end
 
   def new
     @recipe_material = RecipeMaterial.new
-    respond_with(@recipe_material)
+    respond_to { |format| format.html }
   end
 
   def edit
@@ -21,17 +21,17 @@ class RecipeMaterialsController < ApplicationController
   def create
     @recipe_material = RecipeMaterial.new(recipe_material_params)
     @recipe_material.save
-    respond_with(@recipe_material)
+    respond_to { |format| format.html }
   end
 
   def update
     @recipe_material.update(recipe_material_params)
-    respond_with(@recipe_material)
+    respond_to { |format| format.html }
   end
 
   def destroy
     @recipe_material.destroy
-    respond_with(@recipe_material)
+    respond_to { |format| format.html }
   end
 
   private

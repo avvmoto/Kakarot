@@ -3,16 +3,16 @@ class MaterialsController < ApplicationController
 
   def index
     @materials = Material.all
-    respond_with(@materials)
+    respond_to { |format| format.html }
   end
 
   def show
-    respond_with(@material)
+    respond_to { |format| format.html }
   end
 
   def new
     @material = Material.new
-    respond_with(@material)
+    respond_to { |format| format.html }
   end
 
   def edit
@@ -21,17 +21,17 @@ class MaterialsController < ApplicationController
   def create
     @material = Material.new(material_params)
     @material.save
-    respond_with(@material)
+    respond_to { |format| format.html }
   end
 
   def update
     @material.update(material_params)
-    respond_with(@material)
+    respond_to { |format| format.html }
   end
 
   def destroy
     @material.destroy
-    respond_with(@material)
+    respond_to { |format| format.html }
   end
 
   private
