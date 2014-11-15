@@ -3,16 +3,16 @@ class MoodsController < ApplicationController
 
   def index
     @moods = Mood.all
-    respond_with(@moods)
+    respond_to { |format| format.html }
   end
 
   def show
-    respond_with(@mood)
+    respond_to { |format| format.html }
   end
 
   def new
     @mood = Mood.new
-    respond_with(@mood)
+    respond_to { |format| format.html }
   end
 
   def edit
@@ -21,17 +21,17 @@ class MoodsController < ApplicationController
   def create
     @mood = Mood.new(mood_params)
     @mood.save
-    respond_with(@mood)
+    respond_to { |format| format.html }
   end
 
   def update
     @mood.update(mood_params)
-    respond_with(@mood)
+    respond_to { |format| format.html }
   end
 
   def destroy
     @mood.destroy
-    respond_with(@mood)
+    respond_to { |format| format.html }
   end
 
   private

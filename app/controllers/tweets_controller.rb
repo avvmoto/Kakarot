@@ -3,16 +3,16 @@ class TweetsController < ApplicationController
 
   def index
     @tweets = Tweet.all
-    respond_with(@tweets)
+    respond_to { |format| format.html }
   end
 
   def show
-    respond_with(@tweet)
+    respond_to { |format| format.html }
   end
 
   def new
     @tweet = Tweet.new
-    respond_with(@tweet)
+    respond_to { |format| format.html }
   end
 
   def edit
@@ -21,17 +21,17 @@ class TweetsController < ApplicationController
   def create
     @tweet = Tweet.new(tweet_params)
     @tweet.save
-    respond_with(@tweet)
+    respond_to { |format| format.html }
   end
 
   def update
     @tweet.update(tweet_params)
-    respond_with(@tweet)
+    redirect_to @tweet
   end
 
   def destroy
     @tweet.destroy
-    respond_with(@tweet)
+    respond_to { |format| format.html }
   end
 
   private

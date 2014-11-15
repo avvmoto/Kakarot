@@ -3,16 +3,16 @@ class TweetMoodsController < ApplicationController
 
   def index
     @tweet_moods = TweetMood.all
-    respond_with(@tweet_moods)
+    respond_to { |format| format.html }
   end
 
   def show
-    respond_with(@tweet_mood)
+    respond_to { |format| format.html }
   end
 
   def new
     @tweet_mood = TweetMood.new
-    respond_with(@tweet_mood)
+    respond_to { |format| format.html }
   end
 
   def edit
@@ -21,17 +21,17 @@ class TweetMoodsController < ApplicationController
   def create
     @tweet_mood = TweetMood.new(tweet_mood_params)
     @tweet_mood.save
-    respond_with(@tweet_mood)
+    respond_to { |format| format.html }
   end
 
   def update
     @tweet_mood.update(tweet_mood_params)
-    respond_with(@tweet_mood)
+    respond_to { |format| format.html }
   end
 
   def destroy
     @tweet_mood.destroy
-    respond_with(@tweet_mood)
+    respond_to { |format| format.html }
   end
 
   private
