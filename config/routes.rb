@@ -1,6 +1,6 @@
 Kakarot::Application.routes.draw do
   get "single_pages/home"
-  resources :users
+  # resources :users
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
