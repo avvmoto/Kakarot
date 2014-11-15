@@ -21,7 +21,7 @@ class TweetsController < ApplicationController
   def create
     @tweet = Tweet.new(tweet_params)
     @tweet.save
-    respond_to { |format| format.html }
+    redirect_to @tweet
   end
 
   def update
@@ -31,7 +31,7 @@ class TweetsController < ApplicationController
 
   def destroy
     @tweet.destroy
-    respond_to { |format| format.html }
+    redirect_to @tweet
   end
 
   private
