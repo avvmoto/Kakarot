@@ -26,6 +26,9 @@ gem 'turbolinks'
 
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 1.2'
+gem 'better_errors'                                    
+gem 'binding_of_caller'
+
 
 gem 'devise'
 gem 'omniauth'
