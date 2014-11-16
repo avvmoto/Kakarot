@@ -5,7 +5,6 @@ class RakutenRecipeNotFound < StandardError; end
 class RakutenRecipe
   URL = 'https://app.rakuten.co.jp'
   ENDPOINT = '/engine/api/Recipe/Search/20140719'
-  APPLICATION_ID  = "1027053250058903459"
 
   def self.client
     @@client ||= Faraday.new(url:URL) do |connection|
