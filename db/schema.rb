@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20141116010852) do
+ActiveRecord::Schema.define(version: 20141116012247) do
 
   create_table "arrangement_colors", force: true do |t|
     t.integer  "arrangement_id"
@@ -72,8 +72,10 @@ ActiveRecord::Schema.define(version: 20141116010852) do
     t.text     "description"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.integer  "arrangement_id"
   end
 
+  add_index "recipes", ["arrangement_id"], name: "index_recipes_on_arrangement_id"
   add_index "recipes", ["title"], name: "index_recipes_on_title"
 
   create_table "tweet_moods", force: true do |t|
