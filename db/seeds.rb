@@ -33,3 +33,15 @@ colors.each do |color|
   _color.code = color_code
   _color.save
 end
+
+## Create Mood Data (import txt file)
+file = File.open("./sample.txt", "r")
+file.each_line do |line|
+  puts line
+  mood = Mood.new
+  mood.name = line
+  mood.save
+  puts mood
+end
+
+
