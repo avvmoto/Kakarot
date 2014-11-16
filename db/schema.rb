@@ -11,7 +11,22 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20141116015629) do
+ActiveRecord::Schema.define(version: 20141116010852) do
+
+  create_table "arrangement_colors", force: true do |t|
+    t.integer  "arrangement_id"
+    t.integer  "color_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  add_index "arrangement_colors", ["arrangement_id", "color_id"], name: "i1", unique: true
+
+  create_table "arrangements", force: true do |t|
+    t.integer  "recipe_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
   create_table "colors", force: true do |t|
     t.string   "name"
