@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20141116015629) do
+ActiveRecord::Schema.define(version: 20141116044408) do
 
   create_table "arrangements", force: true do |t|
     t.datetime "created_at"
@@ -26,13 +26,13 @@ ActiveRecord::Schema.define(version: 20141116015629) do
     t.integer  "color_id"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.integer  "weight"
   end
 
   add_index "arrangements_colors", ["arrangement_id", "color_id"], name: "i1", unique: true
 
   create_table "colors", force: true do |t|
     t.string   "name"
-    t.integer  "weight"
     t.datetime "created_at"
     t.datetime "updated_at"
     t.string   "name_kana"
