@@ -1,2 +1,17 @@
-<h1>Home#index</h1>
-<p>Find me in app/views/home/index.html.erb</p>
+<div id='tweets' class='time1'>
+  <% @tweets.each do |tweets| %>
+  <div class='tweet'><%= tweets.massage %></div>
+  <% end %>
+</div><!-- /#twiiets -->
+
+<div id=color_name' class='time1'>
+  <% @colors.zip(%w(l c r)).each do |color, position| %>
+  <div class='layout_<%= position %> color_<%= format_code(color) %>'></div>
+  <% end %>
+</div><!-- /#color_name -->
+
+<div id=color_name' class='time1'>
+  <% @colors.zip(%w(t m b)).each do |color, position| %>
+  <div class='layout_<%= position %> color_<%= format_code(color) %> per_<%= format_weight(color)  %>'></div>
+  <% end %>
+</div><!-- /#color_layout -->
