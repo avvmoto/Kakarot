@@ -1,34 +1,30 @@
-<p id="notice"><%= notice %></p>
+<div id="recipe">
+  <div id="recipe-image">
+    <%= image_tag('@recipe.iamge_uri') %>
+  </div>
 
-<p>
-  <strong>Title:</strong>
-  <%= @recipe.title %>
-</p>
+  <p id="recipe-name">
+    <%= @recipe.title %>
+  </p>
+  <p id="recipe-description">
+    <%= @recipe.description %>
+  </p>
+  <div id="color-view">
+  </div>
+  <p id="recipe-link">
+    <%= link_to 'レシピを見る', @recipe.uri, target: '_blank' %>
+  </p>
+</div>
 
-<p>
-  <strong>Uri:</strong>
-  <%= @recipe.uri %>
-</p>
+<!-- <p> -->
+<!--   <strong>Category:</strong> -->
+<!--   <%= @recipe.category %> -->
+<!-- </p> -->
+<!--  -->
+<!-- <p> -->
+<!--   <strong>Category url:</strong> -->
+<!--   <%= @recipe.category_url %> -->
+<!-- </p> -->
 
-<p>
-  <strong>Image uri:</strong>
-  <%= @recipe.image_uri %>
-</p>
-
-<p>
-  <strong>Category:</strong>
-  <%= @recipe.category %>
-</p>
-
-<p>
-  <strong>Category url:</strong>
-  <%= @recipe.category_url %>
-</p>
-
-<p>
-  <strong>Description:</strong>
-  <%= @recipe.description %>
-</p>
-
-<%= link_to 'Edit', edit_recipe_path(@recipe) %> |
-<%= link_to 'Back', recipes_path %>
+<%# <%= link_to 'Edit', edit_recipe_path(@recipe) %> |
+<%# <%= link_to 'Back', recipes_path %>

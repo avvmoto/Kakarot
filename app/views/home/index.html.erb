@@ -1,6 +1,9 @@
+<h3><%= link_to '配色', root_path, class: "vertical-text" %></h3>
+<h3><%= link_to '配食', @recipe, class: "vertical-text" %></h3>
+
 <div id='tweets' class='time1'>
   <% @tweets.each do |tweets| %>
-  <div class='tweet'><%= tweets.massage %></div>
+  <div class='tweet vertical-text'><%= tweets.massage %></div>
   <% end %>
 </div><!-- /#twiiets -->
 
