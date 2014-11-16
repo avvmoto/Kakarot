@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20141115104521) do
+ActiveRecord::Schema.define(version: 20141115233458) do
 
   create_table "colors", force: true do |t|
     t.string   "name"
@@ -56,6 +56,8 @@ ActiveRecord::Schema.define(version: 20141115104521) do
     t.datetime "created_at"
     t.datetime "updated_at"
   end
+
+  add_index "recipes", ["title"], name: "index_recipes_on_title"
 
   create_table "tweet_moods", force: true do |t|
     t.integer  "tweet_id"
