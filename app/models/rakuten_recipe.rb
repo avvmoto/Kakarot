@@ -18,7 +18,7 @@ class RakutenRecipe
     response = client.get do |req|
       req.url ENDPOINT
       req.params = {
-        applicationId: APPLICATION_ID,
+        applicationId: ENV['RK_APPLICATION_ID'],
         keyword: keyword
       }
     end

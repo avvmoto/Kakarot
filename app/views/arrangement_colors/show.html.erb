@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Arrangement:</strong>
+  <%= @arrangement_color.arrangement_id %>
+</p>
+
+<p>
+  <strong>Color:</strong>
+  <%= @arrangement_color.color_id %>
+</p>
+
+<%= link_to 'Edit', edit_arrangement_color_path(@arrangement_color) %> |
+<%= link_to 'Back', arrangement_colors_path %>

@@ -1,4 +1,6 @@
 class Mood < ActiveRecord::Base
+  has_one :arrangement
+
   def self.calculate_from_tweet(tweet)
     require 'faraday'
     require "faraday_middleware"

@@ -13,6 +13,23 @@
 
 ActiveRecord::Schema.define(version: 20141116015629) do
 
+  create_table "arrangements", force: true do |t|
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.integer  "mood_id"
+  end
+
+  add_index "arrangements", ["mood_id"], name: "index_arrangements_on_mood_id"
+
+  create_table "arrangements_colors", force: true do |t|
+    t.integer  "arrangement_id"
+    t.integer  "color_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  add_index "arrangements_colors", ["arrangement_id", "color_id"], name: "i1", unique: true
+
   create_table "colors", force: true do |t|
     t.string   "name"
     t.integer  "weight"
@@ -57,8 +74,10 @@ ActiveRecord::Schema.define(version: 20141116015629) do
     t.text     "description"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.integer  "arrangement_id"
   end
 
+  add_index "recipes", ["arrangement_id"], name: "index_recipes_on_arrangement_id"
   add_index "recipes", ["title"], name: "index_recipes_on_title"
 
   create_table "tweet_moods", force: true do |t|

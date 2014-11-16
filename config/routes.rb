@@ -1,4 +1,8 @@
 Kakarot::Application.routes.draw do
+  resources :arrangement_colors
+
+  resources :arrangements
+
   resources :mood_colors
 
   resources :tweet_moods

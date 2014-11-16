@@ -1,0 +1,29 @@
+<h1>Listing arrangement_colors</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Arrangement</th>
+      <th>Color</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @arrangement_colors.each do |arrangement_color| %>
+      <tr>
+        <td><%= arrangement_color.arrangement_id %></td>
+        <td><%= arrangement_color.color_id %></td>
+        <td><%= link_to 'Show', arrangement_color %></td>
+        <td><%= link_to 'Edit', edit_arrangement_color_path(arrangement_color) %></td>
+        <td><%= link_to 'Destroy', arrangement_color, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Arrangement color', new_arrangement_color_path %>
