@@ -6,5 +6,7 @@ class CreateArrangementColors < ActiveRecord::Migration
 
       t.timestamps
     end
+
+    add_index "arrangement_colors", ["arrangement_id", "color_id"], name: "i1", unique: true, using: :btree
   end
 end
