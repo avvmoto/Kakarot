@@ -5,3 +5,9 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+# Recipe
+if Recipe.all.blank?
+  sql = open(File.join(Rails.root, "db", "recipes.sql")).read
+  activerecord::Base.connection.execute sql
+end

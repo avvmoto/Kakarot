@@ -52,6 +52,10 @@ GEM
       warden (~> 1.2.3)
     erubis (2.7.0)
     execjs (2.2.2)
+    faraday (0.9.0)
+      multipart-post (>= 1.2, < 3)
+    faraday_middleware (0.9.1)
+      faraday (>= 0.7.4, < 0.10)
     hashie (3.3.1)
     hike (1.2.3)
     i18n (0.6.11)
@@ -68,6 +72,7 @@ GEM
     mime-types (1.25.1)
     minitest (4.7.5)
     multi_json (1.10.1)
+    multipart-post (2.0.0)
     oauth (0.4.7)
     omniauth (1.2.2)
       hashie (>= 1.2, < 4)
@@ -143,6 +148,8 @@ DEPENDENCIES
   binding_of_caller
   coffee-rails (~> 4.0.0)
   devise
+  faraday
+  faraday_middleware
   jbuilder (~> 1.2)
   jquery-rails
   omniauth
