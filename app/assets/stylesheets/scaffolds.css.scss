@@ -1,13 +1,24 @@
+.vertical-text{
+  writing-mode: tb-rl;
+  writing-mode: vertical-rl;
+  -moz-writing-mode: vertical-rl;
+  -o-writing-mode: vertical-rl;
+  -webkit-writing-mode: vertical-rl;
+}
+@font-face {
+  font-family: 'Honoka';
+  src: asset_path('ipaexm.ttf');
+}
 body {
   background-color: #fff;
   color: #333;
-  font-family: verdana, arial, helvetica, sans-serif;
+  font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", "Honoka", verdana, arial, helvetica, sans-serif;
   font-size: 13px;
   line-height: 18px;
 }
 
 p, ol, ul, td {
-  font-family: verdana, arial, helvetica, sans-serif;
+  font-family: Honoka, verdana, arial, helvetica, sans-serif;
   font-size: 13px;
   line-height: 18px;
 }

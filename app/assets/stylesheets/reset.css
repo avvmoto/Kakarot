@@ -1,0 +1,46 @@
+@charset "utf-8";
+
+
+/* ---------------------------------------------------------------------- */
+/* リセット指定 */
+/* ---------------------------------------------------------------------- */
+
+*{ margin: 0; padding: 0; }
+body{  }
+h1 img,h2 img,h3 img,h4 img,h5 img,h6 img{ display: block; }
+h1,h2,h3,h4,h5,h6,h7,p,li,dt,dd,th,td{
+margin: 0 0 0 0;
+font-size: 13px;
+font-weight: normal;
+text-align: left;
+line-height: 21px;
+/* font-family: sans-serif; */
+letter-spacing: 0px;
+color: #26494c; }
+ul,dl{ list-style: none; }
+table{ border-collapse: collapse; }
+th,td{ vertical-align: top;}
+img{ border: 0; vertical-align: bottom; }
+a{ outline: none; color: #666666; }
+a:link{ text-decoration: underline; }
+a:visited{ text-decoration: underline; }
+a:hover{ text-decoration: underline; }
+a:active{ text-decoration: underline; }
+
+h1::selection,h2::selection,h3::selection,h4::selection,h5::selection,h6::selection,h7::selection,p::selection,li::selection,dt::selection,dd::selection,th::selection,td::selection{
+background: #26494c;
+color: #ffffff;
+}
+
+
+p#test{
+background: #ffffff;
+position: fixed;
+bottom: 0;
+left: 0;
+z-index: 100;
+}
+
+.hide{
+opacity: 0;
+}
