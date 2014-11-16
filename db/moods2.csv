@@ -1,0 +1,111 @@
+mood,categoly,recipe,color,url,a,b,c,color1,color2,color3,weight1,weight2,weight3
+"""我慢"",",ハンバーグ,手抜き簡単☆シンプルなジューシーハンバーグ♪,茶,http://recipe.rakuten.co.jp/recipe/1300009618/,,,,#B4532A,#57462B,#FFFEF2,45,40,15
+,餃子,門外不出！簡単！激うま餃子 レシピ・作り方,白・茶,http://recipe.rakuten.co.jp/recipe/1550001072/,,,,,,,,,
+"""決心、決意"",",カレー,絶品！ドライカレー レシピ・作り方,白・茶・黄,http://recipe.rakuten.co.jp/recipe/1050010613/,,,,#FFFFFC,#91453F,#F8B500,55,40,5
+,グラタン,とろとろクリーミー☆マッシュポテトグラタン レシピ・,黄・白,http://recipe.rakuten.co.jp/recipe/1470002013/,,,,,,,,,
+"""誇り、自信"",",から揚げ,カリッカリ♪我が家自慢の鶏の竜田揚げ レシピ・,茶・緑,http://recipe.rakuten.co.jp/recipe/1390024156/,,,,#FBCA4D,#BF783A,#67A70C,70,20,10
+,コロッケ,これでマスター★基本のプロ級コロッケ レシピ,茶・白,http://recipe.rakuten.co.jp/recipe/1220001455/,,,,,,,,,
+,シチュー,ルーなんていらない！簡単クリームシチュー,白・赤,http://recipe.rakuten.co.jp/recipe/1340000291/,,,,,,,,,
+"""苦しむ、悩む"",",煮物,ご飯が進む☆鶏もも肉と大根の照り煮,茶・白,http://recipe.rakuten.co.jp/recipe/1360003502/,,,,#EDE4CD,#B19A00,#513743,40,35,25
+,豆腐料理,ごはんに合う☆豆腐ステーキのきのこあんかけ ,茶・白,http://recipe.rakuten.co.jp/recipe/1580025968/,,,,,,,,,
+,揚げ物,安ウマ！簡単！！　チキンナゲット レシピ・作り方,茶・白,http://recipe.rakuten.co.jp/recipe/1400000050/,,,,,,,,,
+"""安らぐ、くつろぐ"",",和え物,ホウレン草の胡麻和え,緑,http://recipe.rakuten.co.jp/recipe/1050000801/,,,,#AACF53,#2E7E16,#EDE4CD,50,45,5
+"""快感"",",酢の物,食用菊の酢の物,ピンク,http://recipe.rakuten.co.jp/recipe/1180003982/,,,,#FFFFFC,#E198B4,#F8F4E6,50,45,5
+,なす,なすがとろける_簡単_焼きなすの煮びたし ,白・茶・緑,http://recipe.rakuten.co.jp/recipe/1010011230/,,,,,,,,,
+,ニンジン,甘辛に炒めて簡単_人参のごま和え,オレンジ・白,http://recipe.rakuten.co.jp/recipe/1010011112/,,,,,,,,,
+"""感動"",",トマト,トマトとモッツァレラチーズのカプレーゼ ,赤・白・緑,http://recipe.rakuten.co.jp/recipe/1410000639/,,,,#C04D21,#FFFFF1,#2E7E16,70,25,5
+,小松菜,小松菜と人参のおひたし,緑・赤・黄いろ,http://recipe.rakuten.co.jp/recipe/1480005371/,,,,,,,,,
+"""緊張"",",かぼちゃ,ホクホクのかぼちゃの煮物,黄・緑,http://recipe.rakuten.co.jp/recipe/1310005826/,,,,#E29956,#FFFEF2,#005931,75,20,5
+,ブロッコリー,大人の味☆ブロッコリーのガーリック炒め,緑・ピンク・赤,http://recipe.rakuten.co.jp/recipe/1360000196/,,,,,,,,,
+,ズッキーニ,簡単なズッキーニレシピ,黄・ピンク・紫,http://recipe.rakuten.co.jp/recipe/1960003409/,,,,,,,,,
+,カリフラワー,カリフラワーと茹で卵のサラダ,白・緑,http://recipe.rakuten.co.jp/recipe/1490004558/,,,,,,,,,
+"""媚びる、甘える"",",ミョウガ,なすとミョウガのナムル,白・紫・ピンク,http://recipe.rakuten.co.jp/recipe/1390013373/,,,,#DEF3DE,#5F414B,#B44C97,55,30,15
+,唐辛子,万願寺とうがらしの甘辛煮,緑・茶,http://recipe.rakuten.co.jp/recipe/1700005963/,,,,,,,,,
+,玉ねぎ,新玉ねぎの丸ごと肉詰め蒸し煮,白,http://recipe.rakuten.co.jp/recipe/1390011220/,,,,,,,,,
+"""慌てる・焦る"",",ナポリタン,昔ながらのスパゲッティ★これぞ王道ナポリタン ,赤・緑,http://recipe.rakuten.co.jp/recipe/1720006898/,,,,#F47A44,#FAA755,#A9D159,50,40,10
+"""喜ぶ、楽しい"",",バジル系パスタ,絶対美味しい！エビとアボカドのバジルパスタ レシピ・,緑・白,http://recipe.rakuten.co.jp/recipe/1000005088/,,,,#D3E173,#84C98B,#f7fcfe,40,35,25
+,クリーム系パスタ,牛乳で簡単♪明太子クリームパスタ レシピ,ピンク・黒,http://recipe.rakuten.co.jp/recipe/1770001825/,,,,,,,,,
+"""じっと見る"",",ペペロンチーノ,絶対にうまい！ペペロンチーノ レシピ・,白・赤,http://recipe.rakuten.co.jp/recipe/1050009078/,,,,#F3F47F,#A61017,#2E7E16,85,10,5
+,ミートソース,お店の味★ミートソーススパゲッティー,オレンジ・白,http://recipe.rakuten.co.jp/recipe/1730003330/,,,,,,,,,
+,和風パスタ,和風ツナパスタ ,白・黒,http://recipe.rakuten.co.jp/recipe/1780004473/,,,,,,,,,
+"""驚く"",",梅,我が家の　酸っぱくない　甘めの梅干し,ピンク,http://recipe.rakuten.co.jp/recipe/1600002444/,,,,#F73B70,#E597B2,#FCE2C4,40,35,25
+"""挨拶"",",わかめ,あっさり！わかめスープ,緑,http://recipe.rakuten.co.jp/recipe/1820011087/,,,,#2E7E16,#AACF53,#F6FBF6,45,40,15
+"""困る"",",こんにゃく,あたりめが隠し味！玉こんにゃくの煮物！,灰色,http://recipe.rakuten.co.jp/recipe/1970002718/,,,,#A99E93,#785863,#FFFFF1,85,10,5
+,かまぼこ,"おせちに蒲鉾の飾り切り”結び、菊水、手綱、バラ” レシピ・",ピンク,http://recipe.rakuten.co.jp/recipe/1390009589/,,,,,,,,,
+,浅漬け,なすの浅漬け,紫,http://recipe.rakuten.co.jp/recipe/1660007532/,,,,,,,,,
+"""許す"",",ヨーグルト,スノーケーキ,白,http://recipe.rakuten.co.jp/recipe/1360007908/,,,,#FFFFF1,#F9204D,#083A28,65,25,20
+,チョコケーキ,生チョコケーキポロショコラ風,茶,http://recipe.rakuten.co.jp/recipe/1790006434/,,,,,,,,,
+,おはぎ,もち米１００％でも冷めても柔らか♪簡単おはぎ ,黒,http://recipe.rakuten.co.jp/recipe/1330007741/,,,,,,,,,
+,オレンジ,オレンジゼリー,オレンジ,http://recipe.rakuten.co.jp/recipe/1010011470/,,,,,,,,,
+,プリン,自慢のなめらか焼きプリン ,黄・茶,http://recipe.rakuten.co.jp/recipe/1510006838/,,,,,,,,,
+,ブルーベリー,ブルーベリースムージー,紫,http://recipe.rakuten.co.jp/recipe/1390013178/,,,,,,,,,
+"""怒る、高ぶる"",",イチゴ,いちご好きのイチゴたっぷりタルト ,赤,http://recipe.rakuten.co.jp/recipe/1170007646/,,,,#DC143C,#691C2A,#FFD768,75,20,5
+,卵,マッシュポテトとチーズのオムレツ,黄,http://recipe.rakuten.co.jp/recipe/1050011545/,,,,,,,,,
+,卵,材料3つのあんかけ茶碗蒸し,黄・赤,http://recipe.rakuten.co.jp/recipe/1260005501/,,,,,,,,,
+,かぼちゃ,うちのかぼちゃサラダ ,黄,http://recipe.rakuten.co.jp/recipe/1770011053/,,,,,,,,,
+"""照れる"",",ごぼう,ごまドレッシングでごぼうサラダ ,白・オレンジ,http://recipe.rakuten.co.jp/recipe/1480005739/,,,,#EEBBCB,#F85CA2,#3EB370,50,45,5
+"""怒る"",",肉,簡単♪やわらかローストビーフ レシピ,赤・茶,http://recipe.rakuten.co.jp/recipe/1630000473/,,,,#D7003A,#331818,#DEF3DE,60,25,15
+,トマト,トマトのソテー！ふんわりトマトの卵とじ ,赤・黄,http://recipe.rakuten.co.jp/recipe/1390012471/,,,,,,,,,
+,ひな祭り,簡単でも豪華に！海鮮ちらし寿司♪,赤・黄・白,http://recipe.rakuten.co.jp/recipe/1480000448/,,,,,,,,,
+,スープ,ハマグリの潮汁,黒・白,http://recipe.rakuten.co.jp/recipe/1390002520/,,,,,,,,,
+"""におい"",",コーンスープ,コーンクリーム缶de時短♪簡単コーンスープ ,黄,http://recipe.rakuten.co.jp/recipe/1570008189/,,,,#FCF16E,#C5956B,#f7fcfe,50,35,15
+,韓国スープ,もやしたっぷり！豆腐のチゲスープ ,オレンジ・黄,http://recipe.rakuten.co.jp/recipe/1660004663/,,,,,,,,,
+,黄,かぼちゃのスープ♪,黄,http://recipe.rakuten.co.jp/recipe/1780009757/,,,,,,,,,
+"""喜ぶ・笑い"",",緑茶,マーブル抹茶オレ ,緑・白,http://recipe.rakuten.co.jp/recipe/1740003985/,,,,#FFFFFC,#D6E9CA,#887938,40,35,25
+,ジュース,ザ・健康！にんじん&りんごで命の抗がんジュース,オレンジ,http://recipe.rakuten.co.jp/recipe/1080008774/,,,,,,,,,
+,スムージー,カリウムたっぷり！小松菜＆バナナジュース,緑,http://recipe.rakuten.co.jp/recipe/1860003424/,,,,,,,,,
+,ピザ,もちもち自家製ピザ生地で♪マルゲリータ レシピ・,赤・緑,http://recipe.rakuten.co.jp/recipe/1800003720/,,,,,,,,,
+,ミネストローネ,野菜がおいしいミネストローネ ,赤,http://recipe.rakuten.co.jp/recipe/1330008548/,,,,,,,,,
+,エビマヨ,ぷりっぷり♪エビマヨ,緑・白・赤,http://recipe.rakuten.co.jp/recipe/1110007942/,,,,,,,,,
+,ジャージャー麺,ジャージャー麺,茶・白・緑,http://recipe.rakuten.co.jp/recipe/1020008284/,,,,,,,,,
+,八宝菜,プロ直伝八宝菜,黄・緑・白,http://recipe.rakuten.co.jp/recipe/1050001667/,,,,,,,,,
+,リゾット,本格イタリアン！チーズリゾット ,白,http://recipe.rakuten.co.jp/recipe/1180001920/,,,,,,,,,
+"""味わい"",",マーボ豆腐,本格！麻婆豆腐 ☆　美味しい　,茶・白,http://recipe.rakuten.co.jp/recipe/1920003005/,,,,#F4DDA5,#C04D21,#339933,60,35,5
+,ティラミス,ちょっぴり濃厚☆クリームチーズで簡単ティラミス,茶・白,http://recipe.rakuten.co.jp/recipe/1780009406/,,,,,,,,,
+"""軽視、侮辱"",",タイカレー,具だくさん☆本格的タイのグリーンカレー,白・赤,http://recipe.rakuten.co.jp/recipe/1200005131/,,,,#D6E9CA,#FFFFFC,#E60033,55,40,5
+,トムヤムクン,トムヤムクン♪,赤,http://recipe.rakuten.co.jp/recipe/1540010609/,,,,,,,,,
+,混ぜご飯,タイの味☆ガパオライス ,白・茶・緑,http://recipe.rakuten.co.jp/recipe/1780014168/,,,,,,,,,
+"""疲れる"",",ブリ大根,定番おかず　ぶり大根 レシピ・,茶,http://recipe.rakuten.co.jp/recipe/1620000377/,,,,#543F32,#887938,#302833,45,35,30
+"""愛する、好む"",",サクラエビ,崩れない☆サクサク小エビと玉ねぎのかき揚げ,ピンク・黄,http://recipe.rakuten.co.jp/recipe/1330005557/,,,,#E95295,#FFEC47,#98D98E,55,30,15
+"""不満、疑惑"",",イワシ,"お弁当のおかずにも”いわしの甘露煮”",灰・茶,http://recipe.rakuten.co.jp/recipe/1390000241/,,,,#887938,#7D7D7D,#404048,45,35,30
+,チャーハン,初心者でもできるパラパラ簡単炒飯,黄・ピンク,http://recipe.rakuten.co.jp/recipe/1180001191/,,,,,,,,,
+,カツオ,タレを手作り☆かつおのタタキ ,赤・緑,http://recipe.rakuten.co.jp/recipe/1480001001/,,,,,,,,,
+,カニ,かにしゃぶ鍋,赤・白,http://recipe.rakuten.co.jp/recipe/1540006047/,,,,,,,,,
+,おでん,簡単！おでんつゆ（汁）,茶・白・灰,http://recipe.rakuten.co.jp/recipe/1760004476/,,,,,,,,,
+,お赤飯,失敗しないお赤飯,紫,http://recipe.rakuten.co.jp/recipe/1770000402/,,,,,,,,,
+"""優遇"",",豚肉,圧力鍋でトロトロ！豚の角煮と大根＆ゆで卵,茶・黄,http://recipe.rakuten.co.jp/recipe/1680003061/,,,,#A0873C,#FFEA00,#F2F2B0,60,25,15
+,手羽先,圧力鍋で時短！手羽元と大根のこってり煮,茶,http://recipe.rakuten.co.jp/recipe/1860004400/,,,,,,,,,
+"""情け、共感"",",もつ鍋,博多風〜モツ鍋,緑・白,http://recipe.rakuten.co.jp/recipe/1730003192/,,,,#A9D159,#f7fcfe,#BC9C78,50,40,10
+,タンドリーチキン,オーブンで本格的☆タンドリーチキン（手羽元）,茶・黄,http://recipe.rakuten.co.jp/recipe/1210005494/,,,,,,,,,
+,大根,めちゃうま!!大根サラダ♪,白・茶・黒,http://recipe.rakuten.co.jp/recipe/1200000833/,,,,,,,,,
+,中華料理,エビの生春巻のマヨ＆チリソース ,白・ピンク・緑,http://recipe.rakuten.co.jp/recipe/1390012424/,,,,,,,,,
+"""嫌う、憎む"",",うどん,お店の味☆和風カレーうどん ,黄・緑,http://recipe.rakuten.co.jp/recipe/1540006991/,,,,#D9A62E,#2E7E16,#EB6101,80,15,5
+,ラーメン,専門店を超えた味☆　「海鮮塩ラーメン」,白・緑,http://recipe.rakuten.co.jp/recipe/1790009524/,,,,,,,,,
+,お好み焼き,広島風お好み焼き,茶・白,http://recipe.rakuten.co.jp/recipe/1110002670/,,,,,,,,,
+,沖縄料理,ゴーヤチャンプル,緑・黄・ピンク,http://recipe.rakuten.co.jp/recipe/1760018425/,,,,,,,,,
+,ソーキそば,おうちで作るソーキそば ,茶・白,http://recipe.rakuten.co.jp/recipe/1270003075/,,,,,,,,,
+,肉,やさいたっぷりジンギスカン鍋,白・茶,http://recipe.rakuten.co.jp/recipe/1040005385/,,,,,,,,,
+,麺,スープが美味しい♪自分で作るちゃんぽん,白・茶・緑,http://recipe.rakuten.co.jp/recipe/1960001101/,,,,,,,,,
+,パン,☆むちむち♪ベーグル☆,茶,http://recipe.rakuten.co.jp/recipe/1980000069/,,,,,,,,,
+,ハンバーガー,本格だけど簡単☆おうちでモスバーガー風,茶・白・赤,http://recipe.rakuten.co.jp/recipe/1920010356/,,,,,,,,,
+"""戸惑い、迷い"",",フレンチトースト,"フライパン一つで、簡単フレンチトースト",黄,http://recipe.rakuten.co.jp/recipe/1800000229/,,,,#FFCB05,#4C2E30,#B2D235,45,35,20
+,アイス,簡単＆おいしい★メロンのアイスクリーム,白・緑,http://recipe.rakuten.co.jp/recipe/1220004167/,,,,,,,,,
+,焼き菓子,初心者でも簡単☆ピンクのマカロン ,ピンク,http://recipe.rakuten.co.jp/recipe/1440004659/,,,,,,,,,
+,ゼリー,ミックスフルーツのエンゼル型寒天ゼリー ,赤・黄・緑,http://recipe.rakuten.co.jp/recipe/1390010981/,,,,,,,,,
+,煮卵,ガス代節約のゆで卵で味付け卵（煮卵） ,茶・白・黄,http://recipe.rakuten.co.jp/recipe/1390025974/,,,,,,,,,
+,焼き魚,庶民の塩サバを「高級料亭風」にする焼き方,茶・緑・黒,http://recipe.rakuten.co.jp/recipe/1790002911/,,,,,,,,,
+"""携わる、励む"",",ご飯もの,"ほくほくほっこり”さつまいもの炊き込みごはん”",白・黄,http://recipe.rakuten.co.jp/recipe/1390013958/,,,,#FFFFFC,#EBD842,#0A0017,65,30,5
+,おせち料理,本格的簡単！東京風お雑煮の作り方〜,緑・白,http://recipe.rakuten.co.jp/recipe/1070006492/,,,,,,,,,
+,シチュー,前日から作る☆絶品ビーフシチュー ,茶・緑,http://recipe.rakuten.co.jp/recipe/1210005759/,,,,,,,,,
+"""見る、表す"",",とんかつ,これでマスター★基本の極上ヒレかつ ,茶,http://recipe.rakuten.co.jp/recipe/1220001565/,,,,#FFCC4E,#CEE6C1,#006B3E,80,15,5
+
+"""覚醒"",",ソフトドリンク,スペシャルノンアルコールカクテル☆チャイナブルー ,青,http://recipe.rakuten.co.jp/recipe/1790003655/,,,,#38A1DB,#83CCD2,#EAF4FC,50,40,10
+"""呪術、祈り"",",お菓子,沖縄紅芋タルト風　紫芋タルト,紫・黄,http://recipe.rakuten.co.jp/recipe/1520007469/,,,,#824880,#FFFFF1,#D5C752,45,30,25
+,マカロン,絞り出したらすぐ焼けるお手軽マカロン・パリジャン ,黄・ピンク・茶,http://recipe.rakuten.co.jp/recipe/1310005053/,,,,,,,,,
+,飲み物,意外と美味しい！グレーのビタミンスムージー,青・灰,http://recipe.rakuten.co.jp/recipe/1040008711/,,,,,,,,,
+"""心奪われる"",",アイス,イチゴ牛乳ジェラート ,ピンク,http://recipe.rakuten.co.jp/recipe/1510010382/,,,,#FDEFF2,#EBF6F7,#E198B4,60,35,5
+,シャーベット,ライムとバジルのすっきりシャーベット,緑,http://recipe.rakuten.co.jp/recipe/1970005900/,,,,,,,,,
+,お弁当,お弁当やキャラ弁に♥ハムとチーズでバラ♡簡単おかず ,緑・ピンク・白,http://recipe.rakuten.co.jp/recipe/1400005940/,,,,,,,,,
+,お弁当,ロボニャン弁当,白・黒・黄・茶,http://recipe.rakuten.co.jp/recipe/1230013519/,,,,,,,,,
+,お弁当,キャラ弁＊となりのトトロおにぎり ,茶・白・黒,http://recipe.rakuten.co.jp/recipe/1350006070/,,,,,,,,,
+,,,ピンク・白・緑,http://recipe.rakuten.co.jp/recipe/1350006682/,,,,,,,,,
