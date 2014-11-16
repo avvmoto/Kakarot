@@ -15,13 +15,13 @@
 
 <div id=color_name' class='time1'>
   <% @colors.zip(%w(l c r)).each do |color, position| %>
-  <div class='layout_<%= position %> color_<%= format_code(color) %>' style="background: #<%= format_code(color) %>"></div>
+  <div class='layout_<%= position %> color_<%= color %>' style="background: #<%= color %>"></div>
   <% end %>
 </div><!-- /#color_name -->
 
 <div id='color_layout' class='time1'>
-  <% @colors.zip(%w(t m b)).each do |color, position| %>
-  <div class='layout_<%= position %> color_<%= format_code(color) %> per_<%= format_weight(color)  %>' style="background: #<%= format_code(color) %>" ></div>
+  <% @colors.zip(%w(t m b)).zip(@weight).each do |color, position| %>
+  <div class='layout_<%= position %> color_<%= code %> per_<%= weight  %>' style="background: #<%= color %>" ></div>
   <% end %>
 </div><!-- /#color_layout -->
 
