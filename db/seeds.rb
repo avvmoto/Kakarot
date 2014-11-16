@@ -9,7 +9,7 @@
 # Recipe
 if Recipe.all.blank?
   sql = open(File.join(Rails.root, "db", "recipes.sql")).read
-  activerecord::Base.connection.execute sql
+  ActiveRecord::Base.connection.execute sql
 end
 
 ## Create Color
