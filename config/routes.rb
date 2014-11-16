@@ -1,4 +1,5 @@
 Kakarot::Application.routes.draw do
+  get "home/index"
   resources :arrangement_colors
 
   resources :arrangements
