@@ -7,7 +7,6 @@ class RecipesController < ApplicationController
   end
 
   def show
-    respond_to { |format| format.html }
   end
 
   def new
@@ -21,7 +20,7 @@ class RecipesController < ApplicationController
   def create
     @recipe = Recipe.new(recipe_params)
     @recipe.save
-    respond_to { |format| format.html }
+    respond_to { |format| format.html{render action: 'show'} }
   end
 
   def update

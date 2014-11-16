@@ -12,5 +12,7 @@
 //
 //= require jquery
 //= require jquery_ujs
+//= require jquery.easing.1.3
+//= require index.js
 //= require turbolinks
 //= require_tree .

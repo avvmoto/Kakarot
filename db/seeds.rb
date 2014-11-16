@@ -13,26 +13,36 @@ if Recipe.all.blank?
 end
 
 ## Create Color
-require 'mechanize'
+def create_colors(url)
+  require 'mechanize'
+  agent = Mechanize.new
+  page = agent.get(url)
 
-agent = Mechanize.new
+  colors = page.search("ul#colorlist li")
 
-url = "http://irononamae.web.fc2.com/colorlist/wa.html"
-page = agent.get(url)
+  colors.each do |color|
+    color_code = color.search(".iro16").children.first.to_s
+    color_name = color.search(".ironame.wa").children.first.to_s
+    color_name_kana = color.search(".iroyomi").children.first.to_s
 
-colors = page.search("ul#colorlist li")
-
-colors.each do |color|
-  color_code = color.search(".iro16").children.first.to_s
-  color_name = color.search(".ironame.wa").children.first.to_s
-  color_name_kana = color.search(".iroyomi").children.first.to_s
-
-  _color = Color.new
-  _color.name = color_name
-  _color.name_kana = color_name_kana
-  _color.code = color_code
-  _color.save
+    _color = Color.new
+    _color.name = color_name
+    _color.name_kana = color_name_kana
+    _color.code = color_code
+    _color.save
+  end
 end
+
+
+#和の色
+wa_url = "http://irononamae.web.fc2.com/colorlist/wa.html"
+create_colors(wa_url)
+#日本語
+nihon_url = "http://irononamae.web.fc2.com/colorlist/ja.html"
+create_colors(nihon_url)
+
+
+
 
 ## Create Mood Data (import txt file)
 file = File.open("./sample.txt", "r")

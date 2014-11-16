@@ -1,2 +1,8 @@
-<h1>SinglePages#home</h1>
-<p>Find me in app/views/single_pages/home.html.erb</p>
+<h1 class="vertical-text";>フォントてすと</h1>
+<h3><%= link_to '配色', root_path, class: "vertical-text" %></h3>
+<h3><%= link_to '配食', @recipe, class: "vertical-text" %></h3>
+<div id="color_name">
+  <div class="layout_l color_00a381 vertical-text"><%= @tweets[0].massage %></div>
+  <div class="layout_c color_824880 vertical-text"><%= @tweets[1].massage %></div>
+  <div class="layout_r color_eebbcb vertical-text"><%= @tweets[2].massage %></div>
+</div>
