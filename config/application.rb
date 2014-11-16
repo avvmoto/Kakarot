@@ -6,6 +6,10 @@ require 'rails/all'
 # you've limited to :test, :development, or :production.
 Bundler.require(:default, Rails.env)
 
+
+Dotenv.load
+# Dotenv::Railtie.load
+
 module Kakarot
   class Application < Rails::Application
     # Settings in config/environments/* take precedence over those specified here.
