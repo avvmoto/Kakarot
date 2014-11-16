@@ -6,7 +6,7 @@ class HomeController < ApplicationController
       @tweets = Tweet.where.not(mood_id: nil).limit(3)
       @recipe = Recipe.first #TODO: 後でムードからの処理結果を取ってくるようにする
       @target_tweet = @tweets.first
-      @colors = []
+      @colors = Color.limit(3)
       # @colors = @target_tweet.mood.arrangement.color
     end
   end

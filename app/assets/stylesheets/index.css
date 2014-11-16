@@ -1,5 +1,82 @@
+/* 追加 */
+#select .color a{
+  width: 100%;
+  height: 100%;
+}
+#select .eat a{
+  width: 100%;
+  height: 100%;
+}
 @charset "utf-8";
 
+
+body{
+background: url('./bg.png') repeat 0 0;
+}
+
+
+/* splash -------------------------------------------------------------------------------- */
+
+
+#splash{
+width: 100%;
+height: 100%;
+position: fixed;
+transition: all 1000ms cubic-bezier(0.130, 0.430, 0.165, 1.000);
+}
+
+#splash.time1{
+opacity: 1;
+}
+#splash.time2{
+opacity: 0;
+}
+
+#splash div.logo{
+width: 160px;
+height: 160px;
+margin: -80px 0 0 -80px;
+background: url('./logo.svg') no-repeat 0 0;
+background-size: 100% 100%;
+position: absolute;
+top: 50%;
+left: 50%;
+}
+
+
+
+/* twiiets -------------------------------------------------------------------------------- */
+
+#twiiets{
+width: 100%;
+height: 100%;
+position: fixed;
+}
+
+#twiiets div{
+margin: 7% 6.25% 0 6.25%;
+font-size: 10px;
+line-height: 1.5;
+
+}
+
+
+#twiiets.time1{
+top: 100%;
+opacity: 0;
+}
+#twiiets.time2{
+top: 0;
+opacity: 1;
+transition: all 1000ms cubic-bezier(0.130, 0.430, 0.165, 1.000);
+transition: all 1500ms cubic-bezier(.55,.07,0,.94);
+}
+#twiiets.time3{
+top: -100%;
+opacity: 0;
+transition: all 4000ms cubic-bezier(.55,.07,0,.94);
+
+}
 
 
 
@@ -11,7 +88,7 @@
 width: 100%;
 height: 100%;
 position: fixed;
-opacity: 0;
+left: -20px;
 }
 #color_name div{
 width: 40px;
@@ -19,24 +96,20 @@ height: 400px;
 position: absolute;
 }
 
-
-/*  アニメーション系  */
-
 #color_name.time1{
 top: 100%;
-left: -20px;
-transition: all 600ms cubic-bezier(0.130, 0.430, 0.165, 1.000);
+opacity: 0;
 }
 #color_name.time2{
 top: 0;
-left: -20px;
 opacity: 1;
-transition: all 600ms cubic-bezier(0.130, 0.430, 0.165, 1.000);
+transition: all 1000ms cubic-bezier(0.130, 0.430, 0.165, 1.000);
+transition: all 1000ms cubic-bezier(.55,.07,0,.94);
 }
 #color_name.time3{
 top: -100%;
-left: -20px;
-transition: all 600ms cubic-bezier(0.130, 0.430, 0.165, 1.000);
+opacity: 0;
+transition: all 1200ms cubic-bezier(.45,.11,.89,.52);
 }
 
 
@@ -55,40 +128,258 @@ left: 81.25%;
 top: 28%;
 }
 
-#color_name .layout_l{
-left: 18.75%;
-top: 42%;
-}
-#color_name .layout_c{
-left: 50%;
-top: 7%;
-}
-#color_name .layout_r{
-left: 81.25%;
-top: 28%;
-}
-
 
 /*  文字系  */
 
 #color_name .color_00a381{
-background: asset-url("color_name/00a381.svg") no-repeat 0 0;
+background: url('./color_name/00a381.svg) no-repeat 0 0;
 background-size: 100% 100%;
 }
 #color_name .color_824880{
-background: asset-url("color_name/824880.svg") no-repeat 0 0;
+background: url(/img/color_name/824880.svg) no-repeat 0 0;
 background-size: 100% 100%;
 }
 #color_name .color_eebbcb{
-background: asset-url("color_name/eebbcb.svg") no-repeat 0 0;
+background: url(/img/color_name/eebbcb.svg) no-repeat 0 0;
 background-size: 100% 100%;
 }
 
 
 
-/* color_name -------------------------------------------------------------------------------- */
+/* color_layout -------------------------------------------------------------------------------- */
+
+
+#color_layout{
+height: 100%;
+position: fixed;
+}
+#color_layout div{
+width: 100%;
+}
+
+#color_layout.time1{
+width: 100%;
+height: 0%;
+top: 100%;
+left: 0;
+opacity: 1;
+transition: top 600ms cubic-bezier(0.130, 0.430, 0.165, 1.000);
+}
+#color_layout.time2{
+width: 100%;
+top: 0;
+left: 0;
+height: 100%;
+opacity: 1;
+transition: all 600ms cubic-bezier(0.130, 0.430, 0.165, 1.000);
+}
+#color_layout.time3{
+width: 8px;
+top: 0;
+left: 50%;
+height: 100%;
+opacity: 1;
+transition: all 600ms cubic-bezier(.55,.07,0,.94);
+}
+
+#color_layout.time3 div{
+left: -4px;
+}
+
+/*  レイアウト系  */
+
+#color_layout .layout_t{
+}
+#color_layout .layout_m{
+}
+#color_layout .layout_b{
+}
+
+
+#color_layout .per_05{ height: 05%; }
+#color_layout .per_10{ height: 10%; }
+#color_layout .per_15{ height: 15%; }
+#color_layout .per_20{ height: 20%; }
+#color_layout .per_25{ height: 25%; }
+#color_layout .per_30{ height: 30%; }
+#color_layout .per_35{ height: 35%; }
+#color_layout .per_40{ height: 40%; }
+#color_layout .per_45{ height: 45%; }
+#color_layout .per_50{ height: 50%; }
+#color_layout .per_55{ height: 55%; }
+#color_layout .per_60{ height: 60%; }
+#color_layout .per_65{ height: 65%; }
+#color_layout .per_70{ height: 70%; }
+#color_layout .per_75{ height: 75%; }
+#color_layout .per_80{ height: 80%; }
+#color_layout .per_85{ height: 85%; }
+#color_layout .per_90{ height: 90%; }
+#color_layout .per_95{ height: 95%; }
 
 
 
 
 
+
+
+
+
+/*  色系  */
+
+#color_layout .color_00a381{
+background: #00a381;
+}
+#color_layout .color_824880{
+background: #824880;
+}
+#color_layout .color_eebbcb{
+background: #eebbcb;
+}
+
+
+
+
+
+/* select -------------------------------------------------------------------------------- */
+
+
+#select{
+width: 100%;
+height: 100%;
+position: fixed;
+top: 0;
+left: 0;
+z-index: 100;
+}
+
+#select ul{
+width: 100%;
+height: 100%;
+position: absolute;
+top: 49%;
+left: -40px;
+transition: all 600ms cubic-bezier(.55,.07,0,.94);
+}
+
+#select.time1 ul{
+left: 40px;
+}
+
+#select.time2 ul{
+left: -40px;
+}
+
+
+#select li{
+width: 80px;
+height: 200px;
+position: absolute;
+top: -100px;
+transition: all 600ms cubic-bezier(.55,.07,0,.94);
+}
+
+/*見た目系*/
+
+#select li.color{
+background: url('./select_color.svg') no-repeat 0 0;
+background-size: 100% 100%;
+}
+#select li.eat{
+background: url('./select_eat.svg') no-repeat 0 0;
+background-size: 100% 100%;
+}
+
+/*配置系*/
+#select.time1 li.color{
+left: -75%;
+}
+#select.time1 li.eat{
+left: 125%;
+}
+
+#select.time2 li.color{
+left: 25%;
+}
+#select.time2 li.eat{
+left: 75%;
+}
+
+
+
+
+
+/* dish -------------------------------------------------------------------------------- */
+
+
+#dish{
+width: 100%;
+height: 100%;
+position: fixed;
+top: 0;
+left: 0;
+}
+
+#dish.time1{
+z-index: 50;
+opacity: 0;
+transition: all 1000ms cubic-bezier(0.130, 0.430, 0.165, 1.000);
+}
+#dish.time2{
+z-index: 200;
+opacity: 1;
+transition: all 1000ms cubic-bezier(0.130, 0.430, 0.165, 1.000);
+}
+
+
+
+
+#dish div.img{
+width: 240px;
+height: 240px;
+margin: -120px 0 0 -120px;
+position: absolute;
+top: 28%;
+left: 50%;
+}
+
+#dish div.img img{
+width: 100%;
+}
+
+
+#dish p.dish_name{
+width: 100%;
+position: absolute;
+top: 56%;
+font-size: 18px;
+text-align: center;
+}
+
+#dish p.dish_description{
+width: 75%;
+margin: 0 12.5% 0  12.5%;
+position: absolute;
+top: 63%;
+font-size: 11px;
+line-height: 19px;
+text-align: center;
+}
+
+
+#dish ul.menu{
+width: 50%;
+margin: 0 25% 0 25%;
+position: absolute;
+top: 84%;
+left: 0;
+}
+
+#dish ul.menu .color{
+position: absolute;
+left: 0;
+}
+
+#dish ul.menu .recipe{
+position: absolute;
+right: 0;
+}

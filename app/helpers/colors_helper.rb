@@ -5,6 +5,6 @@ module ColorsHelper
   end
 
   def format_weight(color)
-    sprintf("%02d", color.weight)
+    ""#sprintf("%02d", color.weight)
   end
 end
