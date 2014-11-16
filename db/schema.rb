@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20141116013537) do
+ActiveRecord::Schema.define(version: 20141116015629) do
 
   create_table "arrangements", force: true do |t|
     t.datetime "created_at"
