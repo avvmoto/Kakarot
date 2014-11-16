@@ -39,7 +39,7 @@ file = File.open("./sample.txt", "r")
 file.each_line do |line|
   puts line
   mood = Mood.new
-  mood.name = line
+  mood.name = line.delete!("\"").delete!("\n")
   mood.save
   puts mood
 end

@@ -1,5 +1,6 @@
 class Tweet < ActiveRecord::Base
   belongs_to :user
+  belongs_to :mood
 
   def self.bulk_create(user)
     user ||= User.first
@@ -17,8 +18,8 @@ class Tweet < ActiveRecord::Base
       tweet.user_id = user.id
       tweet.massage = _tweet.text
       tweet.tweet_id = _tweet.id
-      tweet.created_at = _tweet.created_at
-      tweet.updated_at = _tweet.created_at
+      tweet.posted_at = _tweet.created_at
+      tweet.mood = Mood.find_mood(tweet)
       tweet.save
     end
   end

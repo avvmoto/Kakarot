@@ -41,6 +41,7 @@ gem 'dotenv-rails'
 gem 'mechanize'
 
 gem 'faraday'
+gem 'faraday_middleware'
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
